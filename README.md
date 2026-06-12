@@ -146,6 +146,6 @@ The objective of this project is to transform raw flight data into meaningful bu
 
 ## Author
 
-**Sainnath**
+Sainnath
 
-Aspiring Data Analyst | Tableau Developer | SQL Enthusiast | Business Intelligence Analyst
+Aspiring Data Analyst | Marketing Analyst | Tableau Developer | Digital Marketer
