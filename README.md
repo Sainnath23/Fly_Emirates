@@ -1,99 +1,151 @@
-US Airline Performance Analysis Dashboard
-Overview
+# US Airline Performance Analysis Dashboard
 
-This project is an end-to-end Business Intelligence solution built using Tableau and MySQL to analyze airline operational performance across the United States. The dashboard provides actionable insights into airline punctuality, delay patterns, airport performance, flight volumes, and operational efficiency.
+## Project Overview
 
-The objective of this project is to transform raw flight data into meaningful business insights that can help stakeholders identify performance gaps, monitor operational KPIs, and support data-driven decision-making.
+This project presents an end-to-end Business Intelligence solution built using Tableau, SQL, and Python. The dashboard analyzes airline operational performance, flight delays, on-time performance, airport efficiency, and airline benchmarking across the United States through interactive visualizations and KPI-driven insights.
 
-Key Highlights
-Analyzed 10,067+ flight records using SQL and Tableau.
-Developed 3 interactive dashboards covering executive overview, airline performance, and airport analysis.
-Tracked 15+ operational KPIs including:
-On-Time Performance (OTP)
-Average Arrival Delay
-Average Departure Delay
-Flight Volume
-Delay Categories
-Delay Type Contribution
-Airline Performance Index
-Implemented dynamic filters for airline, airport, and time-of-day analysis.
-Created executive-level insight panels for quick business interpretation.
-Dashboard 1: Executive Overview
-Key KPIs
-Total Flights: 10,067
-OTP Rate: 82.33%
-Average Arrival Delay: 2.8 Minutes
-Average Departure Delay: 7.6 Minutes
-Visualizations
-Delay Category Distribution
-Delay Type Contribution
-Time of Day Analysis
-Dynamic KPI Cards
-Executive Insights Panel
-Key Findings
-Network-wide OTP Rate achieved 82.33%.
-Airline Delay is the leading contributor to flight delays.
-Afternoon flights experience the highest average delay.
-Majority of flights operate on time.
-Dashboard 2: Airline Operational Performance
-Key KPIs
-Highest OTP Airline: Virgin America (94.34%)
-Highest Delay Airline: American Airlines (11.98 mins)
-Largest Flight Operator: Southwest Airlines (1,994 flights)
-Visualizations
-Top Airlines by OTP %
-Airline Market Share
-Airline Performance Index
-Airline Performance Benchmarking
-Interactive Filters and Insights
-Key Findings
-Virgin America achieved the highest OTP performance.
-Southwest Airlines handled the largest flight volume.
-Delta Air Lines and Alaska Airlines maintained strong operational reliability.
-Higher delays directly impact airline OTP performance.
-Tools & Technologies
-Data Processing
-MySQL
-SQL Queries
-Data Cleaning
-Aggregations
-Visualization
-Tableau Desktop
-KPI Cards
-Interactive Dashboards
-Filters & Actions
-Business Intelligence Reporting
-Skills Demonstrated
-Data Analysis
-SQL Query Writing
-Data Cleaning & Transformation
-KPI Design
-Data Visualization
-Dashboard Development
-Business Intelligence
-Data Storytelling
-Performance Benchmarking
-Business Impact
+The objective of this project is to transform raw flight data into meaningful business insights that help identify operational bottlenecks, improve service reliability, and support data-driven decision-making within the aviation industry.
 
-This dashboard enables airline stakeholders to:
+---
 
-Monitor operational performance in real time.
-Identify high-performing and underperforming airlines.
-Understand major delay contributors.
-Evaluate airport and airline efficiency.
-Support strategic decisions using data-driven insights.
-Project Outcomes
+## Key Metrics Analyzed
 
-✔ Built a scalable BI reporting solution using Tableau and SQL.
+* 10,067+ Total Flights Analyzed
+* 82.33% Overall On-Time Performance (OTP)
+* 2.8 Minutes Average Arrival Delay
+* 7.6 Minutes Average Departure Delay
+* 38,269 Minutes Airline Delay Contribution
+* 30,243 Minutes Late Aircraft Delay Contribution
+* 13 Major Airlines Benchmarked
+* 300+ Airports Evaluated
 
-✔ Identified operational trends across 10K+ flight records.
+---
 
-✔ Achieved actionable insights on airline punctuality, delays, and performance benchmarking.
+## Dashboard 1 – Executive Overview
 
-✔ Delivered an executive-friendly dashboard designed for business decision-making.
+### KPIs
 
-Author
+* Total Flights
+* On-Time Performance (OTP)
+* Average Arrival Delay
+* Average Departure Delay
 
-Sainnath
+### Visualizations
 
-Aspiring Data Analyst | Marketing Analyst | Tableau Developer | Digital Marketer
+* Delay Category Distribution
+* Delay Type Contribution Analysis
+* Time of Day Performance Analysis
+* Operational KPI Cards
+* Executive Insight Panel
+
+### Business Insights
+
+* Achieved an overall OTP rate of 82.33% across the network.
+* Airline-related delays were identified as the leading cause of disruptions.
+* Afternoon flights experienced the highest average delays.
+* Majority of flights operated within acceptable performance thresholds.
+
+---
+
+## Dashboard 2 – Airline Performance Analysis
+
+### KPIs
+
+* Highest OTP Airline
+* Highest Delay Airline
+* Largest Flight Operator
+* Airline Performance Index
+
+### Visualizations
+
+* Top Airlines by OTP Performance
+* Average Arrival Delay by Airline
+* Airline Market Share Analysis
+* Airline Reliability Index
+* Airline Performance Benchmarking
+
+### Business Insights
+
+* Virgin America achieved the highest OTP performance at 94.34%.
+* American Airlines recorded the highest average arrival delay.
+* Southwest Airlines handled the largest flight volume.
+* Delta Air Lines and Alaska Airlines maintained strong operational reliability.
+
+---
+
+## Tableau Features Implemented
+
+* Interactive Dashboards
+* Dynamic Filters
+* KPI Cards
+* Calculated Fields
+* Table Calculations
+* Custom Tooltips
+* Dashboard Actions
+* Parameter Controls
+* Performance Benchmarking
+* Data Storytelling
+
+---
+
+## Data Processing & Analysis
+
+### Python
+
+* Data Cleaning
+* Data Transformation
+* Feature Engineering
+* Missing Value Treatment
+
+### SQL
+
+* KPI Calculations
+* Aggregations
+* Performance Analysis
+* Delay Categorization
+* Airline Benchmarking
+
+---
+
+## Tools & Technologies
+
+* Tableau
+* MySQL
+* Python
+* Pandas
+* Excel
+* Data Visualization
+* Business Intelligence
+* Exploratory Data Analysis
+
+---
+
+## Key Outcomes
+
+* Built an executive-level airline performance analytics dashboard.
+* Analyzed over 10,000 flight records across multiple airlines and airports.
+* Delivered actionable insights into airline reliability, delays, and operational efficiency.
+* Identified key factors contributing to flight disruptions and performance variation.
+* Created a portfolio-ready Business Intelligence project demonstrating advanced Tableau, SQL, and Python capabilities.
+
+---
+
+## Skills Demonstrated
+
+* Data Cleaning & Transformation
+* SQL Query Optimization
+* KPI Development
+* Data Visualization
+* Dashboard Design
+* Business Intelligence Reporting
+* Performance Benchmarking
+* Data Storytelling
+* Exploratory Data Analysis
+
+---
+
+## Author
+
+**Sainnath**
+
+Aspiring Data Analyst | Tableau Developer | SQL Enthusiast | Business Intelligence Analyst
